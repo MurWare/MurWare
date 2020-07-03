@@ -1,5 +1,5 @@
 <?php
-if (!in_array($_SERVER['SERVER_NAME'], ['aurora-project.ru', 'l.aurora-project.ru']))
+if (!in_array($_SERVER['SERVER_NAME'], ['murware.ml', 'l.murware.mlu']))
 	exit($_SERVER['SERVER_NAME']. ' is not allowed domain!');
 
 include_once '../config/config.php';        // Инициализация настроек
